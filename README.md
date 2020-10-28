@@ -22,7 +22,7 @@ Day 13 of 100 Days of Swift.
   - Boolean true or false - only 2 states
 
 ### 3. Operators
-  - + - * / += (add and store the value)
+  - `+ - * / +=` (add and store the value)
   - preferable to do operations only between apples to apple
   - modulo - reminder operator
   - Comparision operators - < > <= >= == !=     -->Return Booleans
@@ -31,3 +31,14 @@ Day 13 of 100 Days of Swift.
 
 ### 4. String Interpolation
   - When you wanna include the variable or constant inside a string use `\(variableName)` to have a value
+
+### 5. Arrays
+  - Collection of  Values inside [..., .., ..]
+  - zero based index
+  - Accessed via index like arr[0] ..If index > arr.length then out of bounds exception
+  - Heterogeneous collection of elements in array [Any]
+  - String]() Create empty array which will later hold strings
+  - If you wanna combine two arrays you can use + operator
+
+### 6. Dictionary
+  - Key value pairs which makes it sensible and tells true meaning of the variable
