@@ -42,3 +42,26 @@ Day 13 of 100 Days of Swift.
 
 ### 6. Dictionary
   - Key value pairs which makes it sensible and tells true meaning of the variable
+
+### 7. Conditionals
+  - if else if else...
+  - branching out code based on conditions
+  - ! || == && !=
+
+### 8. Loops
+  - A set of code which repeats itself until it hits the condition and that many times
+  - DRY principle
+  - closed range operator ...(including last) ..< (upto last) or Iterable collection
+  -  _ if you dont want to use intermediate name
+  -  Nested loops - loops within loops
+  -  While loop
+  -  Infinite Loops - loops go on forever
+  -  break statement -> exits completely out of the current loop
+  -  continue statement -> Skips the current iteration and goes on with next iterations
+  
+### 9. Switch case:
+  -  Switch case:
+  -  Another flow control
+  -  cases should be exhaustive - cover all cases
+  -  have a default statement at the end
+  -  Fallthorough prints the next case
