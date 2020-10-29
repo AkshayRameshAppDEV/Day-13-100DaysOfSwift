@@ -67,3 +67,59 @@ var user = [
     "Last": "R"
 ]
 user["first"]
+
+// Conditionals
+// if else if else...
+// branching out code based on conditions
+// ! || == && !=
+let a = 1
+let b = 2
+let c = 3
+if (a > b) && !(a > c) || (a < b) {
+    print("True")
+} else if (a != b) {
+    print("Ok")
+} else {
+    print("False")
+}
+
+// Loops
+// A set of code which repeats itself until it hits the condition and that many times
+// DRY principle
+// closed range operator ...(including last) ..< (upto last) or Iterable collection
+// _ if you dont want to use intermediate name
+// Nested loops - loops within loops
+// While loop
+// Infinite Loops - loops go on forever
+// break statement -> exits completely out of the current loop
+// continue statement -> Skips the current iteration and goes on with next iterations
+let myFavSongs = ["Monster", "100 Hunters", "Loyal", "Love More", "Beat it"]
+var count = 0
+for song in myFavSongs {
+    count += 1
+    print("I am in this song - \(song)")
+    for i in 0..<3 {
+        print("Once More - \(song)")
+    }
+//    while count != 2 {
+//        if count == 4 {
+//            print("I am sad: \(count)")
+//            break
+//        }
+//    }
+}
+
+// Switch case:
+// Another flow control
+// cases should be exhaustive - cover all cases
+// have a default statement at the end
+// Fallthorough prints the next case
+let name = "Akshay"
+switch name {
+case "Akshay":
+    print("AWESOME")
+case "Devil":
+    print("BAD")
+default:
+    print("No Type")
+}
